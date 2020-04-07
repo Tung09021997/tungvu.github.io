@@ -4,24 +4,40 @@
         <meta charset="UTF-8">
         <title>Thiet ke web</title>
         <style>
+            h1,h3{
+                font-family:cursive;
+                color: rgb(23, 160, 35);
+            }
+            h1{
+                text-shadow: 2px 2.5px 0.5px silver;
+            }
             a:hover{
-                color: red;
                 text-decoration: none;
             }
             a:visited{
-                color:blue;
+                color: blue;
+            }
+            legend.chapter{
+                font-family:cursive;
+                font-size: large;
+                color: orangered;
+            }
+            legend.part{
+                font-family:cursive;
+                font-size: x-large;
+                font-weight: bold;
             }
         </style>
     </head>
     <body>
-        <h1>TONG HOP BAI LAB</h1>
-        <h3>Ho ten: Vu Thanh Tung</h3>
-        <h3>MSSV: 1512973</h3>
+        <h1 style="text-align: center;">TONG HOP BAI LAB</h1>
+        <h3 style="text-align: center;">Ho ten: Vu Thanh Tung</h3>
+        <h3 style="text-align: center;">MSSV: 1512973</h3>
 
         <fieldset>
-        <legend><b>HTML</b></legend>
+        <legend class="part">HTML</legend>
         <fieldset>  
-            <legend><b>Chương 4: Creating a Simple Page</b></legend>
+            <legend class="chapter">Chapter 4: Creating a Simple Page</legend>
             <ul>
                 <li><a href="BaiLab/exercise 4-1/index.html" target="_blank">Exercise 4-1</a></li>
                 <li><a href="BaiLab/exercise 4-2/index.html" target="_blank">Exercise 4-2</a></li>
@@ -31,7 +47,7 @@
             </ul>
         </fieldset>
         <fieldset>
-            <legend><b>Chương 5: Marking Up Text</b></legend>
+            <legend class="chapter">Chapter 5: Marking Up Text</legend>
             <ul>
                 <li><a href="BaiLab/exercise 5-1/index.html" target="_blank">Exercise 5-1</a></li>
                 <li><a href="BaiLab/exercise 5-2/index.html" target="_blank">Exercise 5-2</a></li>
@@ -39,20 +55,20 @@
             </ul>
         </fieldset> 
         <fieldset>
-            <legend><b>Chương 6: Adding Links</b></legend>
+            <legend class="chapter">Chapter 6: Adding Links</legend>
             <ul>
                 <li><a href="BaiLab/exercise 6-1/index.html" target="_blank">Exercise 6-1-7</a></li>
                 <li><a href="BaiLab/exercise 6-8/glossary.html" target="_blank">Exercise 6-8</a></li>
             </ul>
         </fieldset>
         <fieldset>
-            <legend><b>Chương 7: Adding Imgaes</b></legend>
+            <legend class="chapter">Chapter 7: Adding Imgaes</legend>
             <ul>
                 <li><a href="BaiLab/exercise 7-1/index.html" target="_blank">Exercise 7-1</a></li>
             </ul>
         </fieldset>
         <fieldset> 
-            <legend><b>Chương 8: Table Markup</b></legend>
+            <legend class="chapter">Chapter 8: Table Markup</legend>
             <ul>
                 <li><a href="BaiLab/exercise 8-1/index.html" target="_blank">Exercise 8-1</a></li>
                 <li><a href="BaiLab/exercise 8-2/index.html" target="_blank">Exercise 8-2</a></li>
@@ -61,7 +77,7 @@
             </ul>
         </fieldset> 
         <fieldset>
-            <legend><b>Chương 9: Forms</b></legend>
+            <legend class="chapter">Chapter 9: Forms</legend>
             <ul>
                 <li><a href="BaiLab/exercise 9-1/contest_entry.html" target="_blank">Exercise 9-1</a></li>
                 <li><a href="BaiLab/exercise 9-2/index.html" target="_blank">Exercise 9-2</a></li>
@@ -72,9 +88,9 @@
     </fieldset>
 
     <fieldset>
-        <legend>CSS</legend>
+        <legend class="part">CSS</legend>
         <fieldset> 
-            <legend><b>Chương 11: Cascading Style Sheets Orientation</b></legend>
+            <legend class="chapter">Chapter 11: Cascading Style Sheets Orientation</legend>
             <ul>
                 <li><a href="BaiLab/exercise 11-1/index.html" target="_blank">Exercise 11-1</a></li>
                 <li><a href="BaiLab/exercise 11-2/index.html" target="_blank">Exercise 11-2</a></li>
@@ -82,7 +98,7 @@
         </fieldset> 
 
         <fieldset> 
-            <legend><b>Chương 12: Formatting Text</b></legend>
+            <legend class="chapter">Chapter 12: Formatting Text</legend>
             <ul>
                 <li><a href="BaiLab/exercise 12-1/index.html" target="_blank">Exercise 12-1</a></li>
                 <li><a href="BaiLab/exercise 12-2/index.html" target="_blank">Exercise 12-2</a></li>
